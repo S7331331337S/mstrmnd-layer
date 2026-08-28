@@ -180,12 +180,11 @@ h1 span {
 
 .fallback {
   display: none;
-  position: fixed;
-  left: 6vw;
-  bottom: 8vh;
-  z-index: 12;
-  max-width: 28rem;
+  max-width: 34rem;
+  margin: 1.4rem 0 0;
   color: var(--accent);
+  font-size: 0.92rem;
+  line-height: 1.5;
 }
 
 html.is-fallback .fallback {
